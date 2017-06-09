@@ -1,0 +1,59 @@
+.calculator_container{
+  display: flex;
+  height: 40vw;
+  width: 30vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+h2{
+  font-size: 2em;
+}
+
+.number{
+  width: 100%;
+  background-color: green;
+  flex-basis: 25%;
+  border: 1px solid black;
+  color: white;
+}
+
+.operator{
+  width: 100%;
+  background-color: lightgreen;
+  flex-basis: 25%;
+  border: 1px solid black;
+}
+
+.periodmark{
+  width: 100%;
+  background-color: green;
+  flex-basis: 25%;
+  border: 1px solid black;
+  color: white;
+}
+
+.inputfield{
+  width: 100%;
+  background-color: green;
+  flex-basis: 75%;
+  border: 1px solid black;
+}
+
+.numbersout{
+  width: 100%;
+  background-color: green;
+  flex-basis: 25%;
+  border: 1px solid black;
+  color: white;
+}
+
+.clearscreen{
+  width: 100%;
+  background-color: green;
+  flex-basis: 25%;
+  border: 1px solid black;
+  color: white;
+}
