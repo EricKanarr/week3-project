@@ -3,29 +3,42 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css_main">
+    <link rel="stylesheet" href="main.js">
     <title>Calculator</title>
   </head>
   <body>
     <div class="calculator_container">
-      <button type="clear" class="clearscreen">C</></button>
-      <button type="screen" class="inputfield"></button>
-      <button type="button7" class="number">7</></button>
-      <button type="button8" class="number">8</></button>
-      <button type="button9" class="number">9</></button>
-      <button type="divide" class="operator">/</></button>
-      <button type="button4" class="number">4</></button>
-      <button type="button5" class="number">5</></button>
-      <button type="button6" class="number">6</></button>
-      <button type="multiply" class="operator">X</></button>
-      <button type="button1" class="number">1</></button>
-      <button type="button2" class="number">2</></button>
-      <button type="button3" class="number">3</></button>
-      <button type="subtract" class="operator">-</></button>
-      <button type="button0" class="number">0</></button>
-      <button type="period" class="periodmark">.</></button>
-      <button type="equals" class="numbersout">=</></button>
-      <button type="add" class="operator">+</></button>
+      <form name="calculator">
+        <!-- <input type="text" class="display_screen" name="answer"></input> -->
 
-      </div>
+        <input type="button" class= "clear_button" name="clearscreen" value="c" onclick="calculator.answer.value = ''"></input>
+        <input type="text" class="display_screen" name="answer"></input>
+        <br>
+
+        <input type="button" class= "number_button" name="number" value="7" onclick="calculator.answer.value += '7'"></input>
+        <input type="button" class= "number_button" name="number" value="8" onclick="calculator.answer.value += '8'"></input>
+        <input type="button" class= "number_button" name="number" value="9" onclick="calculator.answer.value += '9'"></input>
+        <input type="button" class= "operator_button" name="operator" value="/" onclick="calculator.answer.value += '/'"></input>
+        <br>
+
+        <input type="button" class= "number_button" name="number" value="4" onclick="calculator.answer.value += '4'"></input>
+        <input type="button" class= "number_button" name="number" value="5" onclick="calculator.answer.value += '5'"></input>
+        <input type="button" class= "number_button" name="number" value="6" onclick="calculator.answer.value += '6'"></input>
+        <input type="button" class= "operator_button" name="operator" value="*" onclick="calculator.answer.value += '*'"></input>
+        <br>
+
+        <input type="button" class= "number_button" name="number" value="1" onclick="calculator.answer.value += '1'"></input>
+        <input type="button" class= "number_button" name="number" value="2" onclick="calculator.answer.value += '2'"></input>
+        <input type="button" class= "number_button" name="number" value="3" onclick="calculator.answer.value += '3'"></input>
+        <input type="button" class= "operator_button" name="operator" value="-" onclick="calculator.answer.value += '-'"></input>
+        <br>
+
+        <input type="button" class= "number_button" name="number" value="0" onclick="calculator.answer.value += '0'"></input>
+        <input type="button" class= "number_button" name="numbersout" value="." onclick="calculator.answer.value += '.'"></input>
+        <input type="button" class= "number_button" name="operator" value="=" onclick="calculator.answer.value = eval(calculator.answer.value)"></input>
+        <input type="button" class= "operator_button" name="operator" value="+" onclick="calculator.answer.value += '+'"></input>
+
+      </form>
+    </div>
   </body>
 </html>

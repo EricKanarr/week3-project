@@ -8,52 +8,33 @@
   border: 1px solid black;
 }
 
-h2{
-  font-size: 2em;
-}
-
-.number{
-  width: 100%;
+.display_screen{
+  width: 70%;
   background-color: green;
-  flex-basis: 25%;
-  border: 1px solid black;
+  flex-basis: 100%;
+  border: 1px 1px 1px 1px solid black;
   color: white;
 }
 
-.operator{
-  width: 100%;
+.clear_button{
+  width: 23%;
+  background-color: green;
+  flex-basis: 25%;
+  border: 1px 1px 1px 1px solid black;
+  color: white;
+}
+
+.number_button{
+  width: 23%;
+  background-color: green;
+  flex-basis: 25%;
+  border: 1px 1px 1px 1px solid black;
+  color: white;
+}
+
+.operator_button{
+  width: 23%;
   background-color: lightgreen;
   flex-basis: 25%;
-  border: 1px solid black;
-}
-
-.periodmark{
-  width: 100%;
-  background-color: green;
-  flex-basis: 25%;
-  border: 1px solid black;
-  color: white;
-}
-
-.inputfield{
-  width: 100%;
-  background-color: green;
-  flex-basis: 75%;
-  border: 1px solid black;
-}
-
-.numbersout{
-  width: 100%;
-  background-color: green;
-  flex-basis: 25%;
-  border: 1px solid black;
-  color: white;
-}
-
-.clearscreen{
-  width: 100%;
-  background-color: green;
-  flex-basis: 25%;
-  border: 1px solid black;
-  color: white;
+  border: 1px 1px 1px 1px solid black;
 }
